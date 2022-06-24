@@ -1,0 +1,44 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .doctors .box-container,
+  .blogs .box-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .blogs .box-container .box .content h3 {
+    color: var(--black);
+    font-size: 2.2rem;
+  }
+  .footer .box-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .home .content h3,
+  .icons-container .icons h3,
+  .heading,
+  .about .row .content h3 {
+    font-size: 3rem;
+  }
+  .services .box-container .box h3 {
+    font-size: 2rem;
+  }
+  .blogs .box-container .box .content h3 {
+    font-size: 2.5rem;
+  }
+  .box {
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+  }
+}
